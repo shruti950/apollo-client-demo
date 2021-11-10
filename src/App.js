@@ -1,10 +1,12 @@
 import './App.css';
+import UseMutation from './components/useMutation';
 import UseQuery from './components/useQueryExample';
 
 function App() {
   return (
     <div className="App">
-      <UseQuery/>
+      {/* <UseQuery/> */}
+      <UseMutation/>
     </div>
   );
 }

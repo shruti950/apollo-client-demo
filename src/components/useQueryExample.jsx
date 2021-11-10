@@ -22,7 +22,7 @@ export default function Simple({email,password}) {
       <>
       <h5>userId {data.login.userId}</h5>
       <button onClick={() => refetch({
-          email:"test43@test.com" ,password:"123456" // Always refetches a dalmatian instead of original breed
+          email:"test43@test.com" , password:"123456" // Always refetches a dalmatian instead of original breed
         })}>Refetch!</button>
       </>
     )
