@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import "bootstrap/dist/css/bootstrap.min.css";
 import {
   ApolloClient,
   InMemoryCache,
@@ -10,7 +11,7 @@ import {
 } from "@apollo/client"; 
 
 const client = new ApolloClient({
-  uri: 'http://localhost:4000/graphql',
+  uri: 'https://rickandmortyapi.com/graphql',
   cache: new InMemoryCache()
 });
 
